@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8fb2ea"
+    tools:context="com.example.pankajthawani.onlinedoctor.Otp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:fontFamily="cursive"
+        android:textSize="50dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/logintxt"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="120dp"
+        android:hint="Enter OTP"
+        android:textColorHint="@android:color/black"
+        android:textSize="25dp"
+        android:inputType="number"
+        android:fontFamily="cursive"
+        android:id="@+id/editText3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:fontFamily="cursive"
+        android:background="@drawable/buttonshape"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submitbtn"/>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">OnlineDoctor</string>
+    <string name="help">
+        This is an online doctor prescription application which will help the patient to choose the medicine to use during some specific symptoms.In this patient will enter the symptoms and will get the corresponding medicines related to the symptoms.In this application you have to first register yourslf by entering your name and mobile no and then enter the symptoms and you will get the corresponding medicines related to symptoms.
+ </string>
+    <string name="special">
+1.Specialist of Allergist/Immunologist"\n"
+Dr. Rajeev Nagar Jaipur,BHMS"\n"
+Address :- Pratap Nagar, Jaipur"\n"
+2.Specialist of Cardiologists"\n"
+Dr. Vijay Pathak"\n"
+Address: B-43,Bhagwat Bhawan, Vijay Path, Tilak Nagar, Govind Marg, Jaipur, Rajasthan 302004"\n"
+Phone: 0141 262 0822"\n"
+3.Specialist of  Dermatologists"\n"
+Dr. N.K. Mathur"\n"
+Address: D–47, Piyush Marg, Bapu Nagar, Jaipur, Rajasthan 302015"\n"
+Phone: 0141 271 1101"\n"
+4.Specialist of Gastroenterologists"\n"
+Dr. Subhash Nepalia"\n"
+Address: 68, Dhuleswar Garden, Sardar Patel Marg, C Scheme, Jaipur, Rajasthan 302005"\n"
+Phone: 0141 236 8100"\n"
+5.Specialist of Ophthalmologists"\n"
+Dr. Anil Matai"\n"
+Address: Rambagh, Jaipur, Rajasthan 302015"\n"
+6.Specialist of Neurologists"\n"
+Dr Suresh Kumar Gupta"\n"
+Address: House Number 51, C Block, Vidyut Avyanta Colony, Pradhan Marg, Malviya Nagar, Jaipur, Rajasthan 302017"\n"
+Phone: 0141 252 5121"\n"
+7.Specialist of Nephrologists"\n"
+Dr Pankaj Beniwal"\n"
+Address: 6, New Heera Bagh, Near SMS Hospital, Jaipur, Rajasthan 302004"\n"
+Phone: 099505 01987</string>
+    <string name="tips">
+    "\t\t\t\t\t\t\t\t\t"TIPS TO STAY HEALTHY"\n\n"
+1. Eat lots of fruit and veg."\n"
+2. Eat less salt no more than 6g a day."\n"
+3. Get active and be a healthy weight."\n"
+4. Do not skip breakfast."\n"
+5. Eat your meals the same time every day."\n"
+6. Stay clear of coughers and sneezers."\n"
+7. Snack on an apple a day for healthier arteries."\n"
+8. Wash your hands before you cook."\n"
+9. Make milk one of your daily drinks."\n"
+10.Traveling somewhere exotic? Pack hand sanitizer."\n"
+</string>
+    <string name="precautions">
+        		"\t\t\t\t\t\t\t\t\t"PRECAUTIONS"\n\n"
+1. Do not take your medicine with cold water."\n"
+2. Do not eat heavy meals after 5:00pm"\n"
+3. Drink more water in morning.less at night."\n"
+4. Best sleeping time is 10:00pm to 4:00pm."\n"
+5. Do not lie down immediately after taking meal."\n"
+6. Answer the phone calls from left ear."\n"
+7. Avoid smoking."\n"
+8. Cut down on salt."\n"
+9. Monitor your BP,boold sugar and cholesterol."\n"
+10 manage your stress level."\n"
+        </string>
+</resources>

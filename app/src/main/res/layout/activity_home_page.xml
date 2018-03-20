@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8fb2ea"
+    tools:context="com.example.pankajthawani.onlinedoctor.HomePage">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/symptopmsbtn"
+        android:text="Search via Symptoms"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:textColor="@android:color/black" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Specialistsbtn"
+        android:background="@drawable/buttonshape"
+        android:text="Specialists"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipsbtn"
+        android:text="Tips"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prebtn"
+        android:text="Precautions"
+        android:fontFamily="cursive"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchbtn"
+        android:text="Search Engine"
+        android:fontFamily="cursive"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

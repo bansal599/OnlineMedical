@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8fb2ea"
+    tools:context="com.example.pankajthawani.onlinedoctor.Registration">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="35dp"
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Registration" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Name"
+        android:textSize="25dp"
+        android:id="@+id/name"
+        android:inputType="textNoSuggestions"
+        android:drawableLeft="@drawable/name"
+        android:fontFamily="cursive"
+        android:textColorHint="@android:color/black"
+        android:layout_marginTop="120dp"
+        tools:ignore="InvalidId">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneno"
+        android:hint="Enter Mobile No."
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:inputType="number"
+        android:layout_marginTop="210dp"
+        android:drawableLeft="@drawable/phone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:id="@+id/submitbtn"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:text="Register"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:id="@+id/helpon"
+        android:onClick="on_help"
+        android:layout_marginTop="420dp"
+        android:textSize="40dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
